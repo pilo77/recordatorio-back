@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface ReminderService {
     List<Reminder> findAll();
 
-    Optional<Reminder> getId(Long id);
+    Optional<Reminder> findById(Long id);
 
     Reminder save(Reminder reminder);
 
